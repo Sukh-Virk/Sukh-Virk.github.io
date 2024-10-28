@@ -6,7 +6,7 @@ body {
 header {
     background-color: #e84c3d;
     
-    color: white;           
+    color:white;           
     padding: 15px;        
     display: flex;         
     justify-content: space-between; 
@@ -61,11 +61,11 @@ padding: 40px;
  color:  #e84c3d
 }
 
-.image-container {
+.image-container1 {
     display: flex;
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center; /* Centers the image vertically */
-    height: 100vh; /* Makes the container full height for vertical centering */
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
 }
 
 #image {
@@ -76,4 +76,92 @@ padding: 40px;
     margin-top: 20px; 
      margin-top: -750px; 
 
+}
+
+#about {
+    text-align: center;
+    size:3.5rem;
+    color:  #e84c3d;
+    margin-top: -700px; 
+}
+
+#abouttext{
+    text-align: center;
+    max-width: 1000px;
+    margin-top: -10px; 
+    position:relative;
+    left: 250px;
+}
+#icon1
+{
+    position:relative;
+    left: 750px;
+
+}
+
+#icon2
+{
+    position:relative;
+    left: 650px;
+
+}
+#exphead{
+    text-align: center;
+   font-size: 2.5rem;
+    color:  #e84c3d;
+    margin-top: 125px; 
+}
+
+.image-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    justify-content: center; /* Centers the grid in the container */
+}
+
+.image-container img {
+    width: 30%; /* Set the image to take up 70% of the column's width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+#img1
+{
+    position:relative;
+    left: 525px;
+}
+
+#exptext
+{
+    text-align: center;
+    max-width: 1000px;
+    margin-top: 30px; 
+    position:relative;
+    left: 250px;
+}
+#icon3
+{
+    position:relative;
+    left: 725px;
+
+}
+#Projecth1
+{
+    text-align: center;
+    font-size: 2.5rem;
+     color:  #e84c3d;
+     margin-top: 125px; 
+        
+    
+}
+
+#Projecttext{
+    text-align: center;
+    max-width: 1000px;
+    margin-top: 30px; 
+    position:relative;
+    left: 250px;
+}
+#icon4
+{
+    position:relative;
+    left: 550px;
 }
