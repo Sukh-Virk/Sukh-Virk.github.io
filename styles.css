@@ -61,11 +61,11 @@ padding: 40px;
  color:  #e84c3d
 }
 
-.image-container {
+.image-container1 {
     display: flex;
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center; /* Centers the image vertically */
-    height: 100vh; /* Makes the container full height for vertical centering */
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
 }
 
 #image {
@@ -82,7 +82,7 @@ padding: 40px;
     text-align: center;
     size:3.5rem;
     color:  #e84c3d;
-    margin-top: -675px; 
+    margin-top: -700px; 
 }
 
 #abouttext{
@@ -105,3 +105,27 @@ padding: 40px;
     left: 650px;
 
 }
+#exphead{
+    text-align: center;
+   font-size: 2.5rem;
+    color:  #e84c3d;
+    margin-top: 125px; 
+}
+
+.image-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    justify-content: center; /* Centers the grid in the container */
+}
+
+.image-container img {
+    width: 30%; /* Set the image to take up 70% of the column's width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+#img1
+{
+    position:relative;
+    left: 525px;
+}
+
