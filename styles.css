@@ -27,3 +27,11 @@ nav ul {
 nav ul li {
     margin-left: 20px;     
 }
+#intro{
+
+justify-content: center;
+text-align: center;
+display:flex;
+padding: 40px;
+
+}
