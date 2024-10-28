@@ -77,3 +77,18 @@ padding: 40px;
      margin-top: -750px; 
 
 }
+
+#about {
+    text-align: center;
+    size:3.5rem;
+    color:  #e84c3d;
+    margin-top: -675px; 
+}
+
+#abouttext{
+    text-align: center;
+    max-width: 1000px;
+    margin-top: -10px; 
+    position:relative;
+    left: 250px;
+}
