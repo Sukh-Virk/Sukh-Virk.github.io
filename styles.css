@@ -6,7 +6,7 @@ body {
 header {
     background-color: #e84c3d;
     
-    color: white;           
+    color:white;           
     padding: 15px;        
     display: flex;         
     justify-content: space-between; 
@@ -91,4 +91,17 @@ padding: 40px;
     margin-top: -10px; 
     position:relative;
     left: 250px;
+}
+#icon1
+{
+    position:relative;
+    left: 750px;
+
+}
+
+#icon2
+{
+    position:relative;
+    left: 650px;
+
 }
