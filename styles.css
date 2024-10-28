@@ -166,3 +166,18 @@ padding: 40px;
     position: relative;
     left: 700px;
 }
+#futuregoalh1{
+    text-align: center;
+    font-size: 2.5rem;
+     color:  #e84c3d;
+     margin-top: 125px;
+
+}
+#futuretext{
+    text-align: center;
+    max-width: 1000px;
+    margin-top: 30px; 
+    position:relative;
+    left: 250px;
+
+}
